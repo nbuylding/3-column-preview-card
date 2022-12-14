@@ -1,0 +1,160 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lexend Deca', 'Big Shoulders Display', sans-serif;
+    font-size: 15px;
+}
+
+body {
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 0 10rem;
+    background-color: hsl(0, 0%, 95%);
+}
+
+/* sedans */
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    height: 500px;
+    width: 320px;
+}
+
+.sedans img {
+    padding: 3rem;
+    margin: 0;
+}
+
+.sedans h1 {
+    margin: 0;
+    padding: 0 3rem 0;
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 95%);
+    font-size: 2.5rem;
+}
+
+.sedans p {
+    color: hsla(0, 0%, 100%, 0.65);
+    margin: 0;
+    padding: 3rem;
+    font-weight: 400;
+    line-height: 1.7rem;
+}
+
+.sedans button {
+    background-color: hsl(31, 77%, 52%);
+    border: 1px solid hsl(0, 0%, 95%);
+    padding: 1rem 2.5rem;
+    border-radius: 50px;
+    margin-left: 3rem;
+    cursor: pointer;
+}
+
+.sedans button a {
+    text-decoration: none;
+    color: hsl(0, 0%, 95%);
+}
+
+
+/* suvs */
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+    height: 500px;
+    width: 320px;
+}
+
+.suvs img {
+    padding: 3rem;
+    margin: 0;
+}
+
+.suvs h1 {
+    margin: 0;
+    padding: 0 3rem 0;
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 95%);
+    font-size: 2.5rem;
+}
+
+.suvs p {
+    color: hsla(0, 0%, 100%, 0.65);
+    margin: 0;
+    padding: 3rem;
+    font-weight: 400;
+    line-height: 1.7rem;
+}
+
+.suvs button {
+    background-color: hsl(184, 100%, 22%);
+    border: 1px solid hsl(0, 0%, 95%);
+    padding: 1rem 2.5rem;
+    border-radius: 50px;
+    margin-left: 3rem;
+    cursor: pointer;
+}
+
+.suvs button a {
+    text-decoration: none;
+    color: hsl(0, 0%, 95%);
+}
+
+/* luxury */
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    height: 500px;
+    width: 320px;
+}
+
+.luxury img {
+    padding: 3rem;
+    margin: 0;
+}
+
+.luxury h1 {
+    margin: 0;
+    padding: 0 3rem 0;
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 95%);
+    font-size: 2.5rem;
+}
+
+.luxury p {
+    color: hsla(0, 0%, 100%, 0.65);
+    margin: 0;
+    padding: 3rem;
+    font-weight: 400;
+    line-height: 1.7rem;
+}
+
+.luxury button {
+    background-color: hsl(179, 100%, 13%);
+    border: 1px solid hsl(0, 0%, 95%);
+    padding: 1rem 2.5rem;
+    border-radius: 50px;
+    margin-left: 3rem;
+    cursor: pointer;
+}
+
+.luxury button a {
+    text-decoration: none;
+    color: hsl(0, 0%, 95%);
+}
+
+@media only screen and (max-width: 375px) {
+    body {
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+    }
+}
