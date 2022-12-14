@@ -24,7 +24,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Solution URL here]()
+- Solution URL: [Solution URL here](https://www.frontendmentor.io/solutions/3column-preview-card-component-X0LXV4fQo4)
 - Live Site URL: [Live site URL here](https://nbuylding.github.io/3-column-preview-card/)
 
 ## My process
