@@ -6,21 +6,24 @@ html {
 }
 
 body {
-    width: 1440px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
     padding: 0 10rem;
     background-color: hsl(0, 0%, 95%);
 }
 
+.container {
+    width: 1440px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /* sedans */
 
 .sedans {
     background-color: hsl(31, 77%, 52%);
     height: 500px;
     width: 320px;
+    border-radius: 10px 0 0 10px;
 }
 
 .sedans img {
@@ -28,7 +31,7 @@ body {
     margin: 0;
 }
 
-.sedans h1 {
+.sedans h2 {
     margin: 0;
     padding: 0 3rem 0;
     font-family: 'Big Shoulders Display';
@@ -53,12 +56,9 @@ body {
     border-radius: 50px;
     margin-left: 3rem;
     cursor: pointer;
-}
-
-.sedans button a {
-    text-decoration: none;
     color: hsl(0, 0%, 95%);
 }
+
 
 
 /* suvs */
@@ -74,7 +74,7 @@ body {
     margin: 0;
 }
 
-.suvs h1 {
+.suvs h2 {
     margin: 0;
     padding: 0 3rem 0;
     font-family: 'Big Shoulders Display';
@@ -99,12 +99,9 @@ body {
     border-radius: 50px;
     margin-left: 3rem;
     cursor: pointer;
-}
-
-.suvs button a {
-    text-decoration: none;
     color: hsl(0, 0%, 95%);
 }
+
 
 /* luxury */
 
@@ -112,6 +109,7 @@ body {
     background-color: hsl(179, 100%, 13%);
     height: 500px;
     width: 320px;
+    border-radius: 0px 10px 10px 0px;
 }
 
 .luxury img {
@@ -119,7 +117,7 @@ body {
     margin: 0;
 }
 
-.luxury h1 {
+.luxury h2 {
     margin: 0;
     padding: 0 3rem 0;
     font-family: 'Big Shoulders Display';
@@ -144,17 +142,18 @@ body {
     border-radius: 50px;
     margin-left: 3rem;
     cursor: pointer;
-}
-
-.luxury button a {
-    text-decoration: none;
     color: hsl(0, 0%, 95%);
 }
 
+
+
 @media only screen and (max-width: 375px) {
-    body {
-        display: block;
-        margin: 0 auto;
-        padding: 0;
+    .container {
+        width: 80%;
+        flex-direction: column;
+    }
+    
+    .sedans, .suvs, .luxury {
+        border-radius: 0;
     }
 }
